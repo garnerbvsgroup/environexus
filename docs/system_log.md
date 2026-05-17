@@ -117,3 +117,10 @@ This is the single authoritative log for all major decisions, completed work, bl
 
 ---
 
+**[2026-05-16] | COMPLETED | Aidan Garner (CEO) / Grok (Senior Project Manager)**
+**Summary:** Supabase project "environexus-dev" created. Phase 0 — Foundation officially closed.
+**Detail:** All Phase 0 milestones achieved: GitHub repo initialized (branches main/develop/staging), governing documents finalized with NexCentral branding, FlutterFlow project "EnviroNexus" created with exact brand theme (#0F786E primary, dark mode, Space Grotesk, fingerprint logo), Supabase project created (URL: https://supabase.com/dashboard/project/lnpcphebvlttleuehefx). Keys will be retrieved and logged immediately after. Phase 0 gate passed per 06_implementation_plan.md. Ready to begin Phase 1 — Core Data Model & Auth.
+**Status:** COMPLETED
+
+---
+
