@@ -124,3 +124,17 @@ This is the single authoritative log for all major decisions, completed work, bl
 
 ---
 
+**[2026-05-16] | COMPLETED | Aidan Garner (CEO) / Grok (Senior Project Manager)**
+**Summary:** Supabase keys logged. Phase 0 — Foundation officially closed. Entering Phase 1.
+**Detail:** Supabase project "environexus-dev" (ref: lnpcphebvlttleuehefx) fully provisioned with provided anon and service_role keys. All Phase 0 milestones achieved per 06_implementation_plan.md. Phase 0 gate passed. Ready for full schema deployment from 04_object_model.md.
+**Status:** COMPLETED
+
+---
+
+**[2026-05-16] | COMPLETED | Aidan Garner (CEO) / GitHub Copilot (Dev AI)**
+**Summary:** Migration 000001_initial_schema.sql deployed to Supabase environexus-dev. Phase 1 Core Data Model complete.
+**Detail:** Full PostgreSQL schema deployed via `npx supabase db push` to project ref lnpcphebvlttleuehefx. Schema contains 19 tables (tenants, users, customers, properties, assets, service_types, recurring_templates, jobs, estimates, estimate_line_items, invoices, invoice_line_items, payments, payment_allocations, attachments, proposals, proposal_estimates, notes, qbo_sync_logs), all matching 04_object_model.md exactly. RLS enabled on all tables with tenant_id isolation policies per 05_relationship_map.md. Helper functions: set_updated_at() trigger and get_user_tenant_id() SECURITY DEFINER. Deferred FKs: jobs→estimates, jobs→invoices. Supabase config.toml initialized and committed. Ready for Phase 1 next milestone: Auth & RBAC configuration.
+**Status:** COMPLETED
+
+---
+
