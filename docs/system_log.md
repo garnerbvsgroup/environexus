@@ -96,3 +96,10 @@ This is the single authoritative log for all major decisions, completed work, bl
 
 ---
 
+**[2026-05-16] | DECISION | Aidan Garner (CEO) / Grok (Senior Project Manager)**
+**Summary:** Governing documents reviewed and GitHub repository initialization completed (partial).
+**Detail:** All 7 governing documents verified after CEO upload. Repo created private with branches and /docs/ folder populated. Branch protection deferred (GitHub Free plan). Documents now match clean restart and NexCentral branding. Ready to proceed to Supabase project creation + FlutterFlow theme setup while staying strictly inside Phase 0.
+**Status:** DECISION ADOPTED
+
+---
+
