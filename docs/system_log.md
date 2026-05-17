@@ -103,3 +103,10 @@ This is the single authoritative log for all major decisions, completed work, bl
 
 ---
 
+**[2026-05-16] | TOOLING | Aidan Garner (CEO) / Grok (Senior Project Manager)**
+**Summary:** Supabase + FlutterFlow initialization completed via hybrid manual path.
+**Detail:** Dev AI correctly reported automation limits (Supabase CLI needs interactive login/password; FlutterFlow is GUI-only). CEO will complete manual setup per provided instructions. Projects will be created with exact brand specs from 01_product_vision.md. This keeps Phase 0 on track with zero cost and full traceability. Branch protection remains deferred until GitHub Team upgrade before Phase 1.
+**Status:** DECISION ADOPTED
+
+---
+
