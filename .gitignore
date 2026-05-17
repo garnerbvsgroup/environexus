@@ -1,0 +1,70 @@
+# ============================================================
+# EnviroNexus SaaS — .gitignore
+# FlutterFlow + Supabase + general project ignores
+# ============================================================
+
+# ----- Flutter / Dart -----
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+*.ipr
+*.iws
+.idea/
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# ----- FlutterFlow -----
+flutterflow/
+*.flutterflow
+
+# ----- Supabase -----
+.env
+.env.local
+.env.development
+.env.staging
+.env.production
+supabase/.temp/
+supabase/config.toml.local
+
+# ----- Node / NPM -----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ----- OS / Editor -----
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.idea/
+
+# ----- Secrets / Keys -----
+*.pem
+*.key
+*.p8
+*.p12
+*.jks
+*.keystore
+service-account*.json
+google-services.json
+GoogleService-Info.plist
